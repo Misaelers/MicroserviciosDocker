@@ -1,10 +1,10 @@
-Implementación de microservicios en AWS con Docker:
+# Implementación de microservicios en AWS con Docker:
 
-En este proyecto se integran tres servicios usando docker-compose para lograr el envío de notificaciones con persistencia en base de datos. Los servicios usados son: Servidor web (apache), Base de datos(mysql) y PhpMyAdmin (para visualizar en una interfaz más amigable la persistencia de datos), también usaremos para las notificaciones el Simple Notification Service de AWS (SNS).
+## En este proyecto se integran tres servicios usando docker-compose para lograr el envío de notificaciones con persistencia en base de datos. Los servicios usados son: Servidor web (apache), Base de datos(mysql) y PhpMyAdmin (para visualizar en una interfaz más amigable la persistencia de datos), también usaremos para las notificaciones el Simple Notification Service de AWS (SNS).
 
-Instrucciones: 
+### Instrucciones: 
 
-Necesitará una EC2 para utilizar el servicio SNS (de usarla puede abrir los puertos del punto 3 durante su creación además del 22 si se conectará a la ec2 por ssh).
+**Necesitará una EC2 para utilizar el servicio SNS (de usarla puede abrir los puertos del punto 3 durante su creación además del 22 si se conectará a la ec2 por ssh).**
 
 1-	Instalar Docker 
 Ejemplo: a) Actualizar librerías: sudo yum update –y
